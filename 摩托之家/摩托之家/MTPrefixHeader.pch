@@ -1,0 +1,22 @@
+//
+//  MTPrefixHeader.pch
+//  摩托之家
+//
+//  Created by chenWei on 2017/2/24.
+//  Copyright © 2017年 chen. All rights reserved.
+//
+
+#ifndef MTPrefixHeader_pch
+#define MTPrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "Masonry.h"
+
+#define NAV_HEIGHT 64
+
+
+#endif
+
+
+#endif /* MTPrefixHeader_pch */

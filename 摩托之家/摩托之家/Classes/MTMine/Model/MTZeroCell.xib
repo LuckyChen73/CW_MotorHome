@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MTHeaderView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="xa0-ac-R2A" customClass="MTHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1b8-eZ-Lq4">
+                    <rect key="frame" x="167" y="30" width="41" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDx-MS-jwL">
+                    <rect key="frame" x="40" y="100" width="35" height="30"/>
+                    <state key="normal" title=" 微信">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knL-ib-YBl">
+                    <rect key="frame" x="132.5" y="100" width="30" height="30"/>
+                    <state key="normal" title="QQ">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoL-H6-U1U">
+                    <rect key="frame" x="212" y="100" width="31" height="30"/>
+                    <state key="normal" title="微博">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIz-zf-1sw">
+                    <rect key="frame" x="302" y="100" width="31" height="30"/>
+                    <state key="normal" title="易车">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.25490196078431371" green="0.50588235294117645" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="tIz-zf-1sw" firstAttribute="centerX" secondItem="xa0-ac-R2A" secondAttribute="centerX" constant="130" id="2mI-aS-HxP"/>
+                <constraint firstItem="QoL-H6-U1U" firstAttribute="centerX" secondItem="xa0-ac-R2A" secondAttribute="centerX" constant="40" id="7N3-XG-1aB"/>
+                <constraint firstAttribute="bottom" secondItem="QoL-H6-U1U" secondAttribute="bottom" constant="20" id="9Dp-2x-MdO"/>
+                <constraint firstAttribute="bottom" secondItem="tIz-zf-1sw" secondAttribute="bottom" constant="20" id="N7J-dT-D8E"/>
+                <constraint firstAttribute="bottom" secondItem="aDx-MS-jwL" secondAttribute="bottom" constant="20" id="XbI-Xc-MLT"/>
+                <constraint firstItem="knL-ib-YBl" firstAttribute="centerX" secondItem="xa0-ac-R2A" secondAttribute="centerX" constant="-40" id="fKe-cV-gjl"/>
+                <constraint firstAttribute="bottom" secondItem="knL-ib-YBl" secondAttribute="bottom" constant="20" id="jh5-3z-sTZ"/>
+                <constraint firstItem="aDx-MS-jwL" firstAttribute="centerX" secondItem="xa0-ac-R2A" secondAttribute="centerX" constant="-130" id="noa-RM-z0q"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-2.5" y="196"/>
+        </view>
+    </objects>
+</document>
